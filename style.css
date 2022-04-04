@@ -1,0 +1,32 @@
+.Header{
+    width: 100%;
+    height: 75px;
+    background-color: tan;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.Body{
+    width: 100%;
+    height: 1000px;
+    background-color: cadetblue;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.blocks{
+    width: 300px;
+    height: 400px;
+    margin: 10px;
+    background-color: coral;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+}
+table{
+    border: solid;
+}
